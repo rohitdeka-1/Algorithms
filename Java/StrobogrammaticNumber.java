@@ -13,6 +13,10 @@ public class StrobogrammaticNumber {
 
         int l = 0;
         int r = n - 1;
+        
+
+//        9   1   6
+//        ^       ^
 
         while (l <= r) {
             if (map.containsKey(arr[l]) && map.get(arr[l]) == arr[r]) {
